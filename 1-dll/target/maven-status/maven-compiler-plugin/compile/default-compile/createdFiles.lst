@@ -1,0 +1,7 @@
+roots\RootLine.class
+roots\Persistable.class
+roots\BaseEntity.class
+entities\TaskUser.class
+persistent\CommonRepo.class
+entities\Task.class
+persistent\HibernateDBManager.class
