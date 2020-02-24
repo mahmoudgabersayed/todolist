@@ -52,7 +52,9 @@ public class TaskEditorScreen extends BaseToDoGuiScreen
 		textController = new TextArea();
 		completed = new CheckBox();
 		fromTime = new DatePicker();
+		fromTime.setValue(LocalDate.now());
 		toTime = new DatePicker();
+		toTime.setValue(LocalDate.now());
 		save = new SaveButton(SAVE_BUTTON, "Save", this);
 		delete = new SaveButton(DELETE_BUTTON, "Delete", this);
 		back = new SaveButton(BACK_BUTTON, "Back", this);
